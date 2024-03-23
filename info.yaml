@@ -41,12 +41,12 @@ pinout:
   uo[7]: ""
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
+  uio[0]: "Bit 0"
+  uio[1]: "Bit 1"
+  uio[2]: "Bit 2"
+  uio[3]: "Bit 3"
+  uio[4]: "enable"
+  uio[5]: "direction"
   uio[6]: ""
   uio[7]: ""
 
