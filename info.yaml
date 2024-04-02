@@ -47,8 +47,8 @@ pinout:
   uio[3]: "Output Bit 3"
   uio[4]: "enable"
   uio[5]: "direction"
-  uio[6]: ""
-  uio[7]: ""
+  uio[6]: "Unused"
+  uio[7]: "Unused"
 
 # Do not change!
 yaml_version: 6
