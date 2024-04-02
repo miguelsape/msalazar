@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The project consists of a state machine with 4 outputs, which is used to control a bipolar stepper motor.
 
 ## How to test
 
-Explain how to use your project
+The system has an external clock input, a reset input, a control input for selecting the direction of rotation of the motor, an enable input and 4 outputs for the stepper motor coils.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+The system requires an external clock input to control the speed of the pulses and thus regulate the rotation speed of the motor.
