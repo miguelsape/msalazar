@@ -17,7 +17,7 @@ The /RESET input puts the driver into a predefined initial state and turns off t
 
 /ENABLE. When a high logic value is applied the outputs are deactivated. When a 0 is applied, the internal control enables the outputs.
 
-/SLEEP. Sleep mode. To minimize power consumption when the motor is not in use, this input disables much of the internal circuitry. A low logic level on the SLEEP pin puts the A4988 into sleep mode.
+/SLEEP. Sleep mode. To minimize power consumption when the motor is not in use, this input disables much of the internal circuitry. A low logic level on the SLEEP pin puts into sleep mode.
 
 MS1, MS2, MS3. Microstep Resolution, from full step to 1/16 microsteps. For full-step put all the pins to GND.
 
