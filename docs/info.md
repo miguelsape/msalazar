@@ -9,17 +9,17 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-The project consists of a state machine with 4 outputs, which is used to control a bipolar stepper motor. El número de pulsos aplicados es la distancia que recorre el eje y la frecuencia con que aplicamos los pulsos, es directamente proporcional a la  velocidad de giro. Asimismo un nivel alto aplicado en la entrada DIR hace que el motor gire en sentido horario, mientras que una señal a nivel bajo hace que el eje se mueva en sentido antihorario.
+The project consists of a state machine with 4 outputs, which is used to control a bipolar stepper motor. The number of pulses applied is the distance that the axis travels and the frequency with which we apply the pulses is directly proportional to the rotation speed. Likewise, a high level applied to the DIR input causes the motor to rotate clockwise, while a low level signal causes the axis to move counterclockwise.
 
-Otras entradas son:
+Other entries are:
 
-La entrada /RESET pone el driver en un estado inicial predefinido  y apaga las salidas. Todos los pulsos aplicados en la entrada STEP se ignoran hasta que la entrada /RESET se pone a nivel alto.
+The /RESET input puts the driver into a predefined initial state and turns off the outputs. All pulses applied to the STEP input are ignored until the /RESET input is set high.
 
-/ENABLE. Cuando se aplica valor lógico alto (3.3 - 5V) las salidas se desactivan. Cuando se aplica un 0 el control interno habilita las salidas.
+/ENABLE. When a high logic value is applied (3.3 - 5V) the outputs are deactivated. When a 0 is applied, the internal control enables the outputs.
 
-/SLEEP. Modo de reposo. Para minimizar el consumo de energía cuando el motor no está en uso, esta entrada desactiva gran parte de la circuitería interna. Un nivel lógico bajo en el pin SLEEP pone al A4988 en modo de reposo.
+/SLEEP. Sleep mode. To minimize power consumption when the motor is not in use, this input disables much of the internal circuitry. A low logic level on the SLEEP pin puts the A4988 into sleep mode.
 
-MS1, MS2, MS3. Microstep Resolution, desde full step hasta 1/16 micropasos. Para full-step poner todos los pines a GND. 
+MS1, MS2, MS3. Microstep Resolution, from full step to 1/16 microsteps. For full-step put all the pins to GND.
 
 ## How to test
 
