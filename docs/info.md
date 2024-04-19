@@ -25,6 +25,14 @@ MS1, MS2, MS3. Microstep Resolution, from full step to 1/16 microsteps. For full
 
 The system has an external clock input, a reset input, a control input for selecting the direction of rotation of the motor, an enable input and 4 outputs for the stepper motor coils.
 
+Bidirectional pins
+uio[0]: "Output Bit 0"
+uio[1]: "Output Bit 1"
+uio[2]: "Output Bit 2"
+uio[3]: "Output Bit 3"
+uio[4]: "enable"
+uio[5]: "direction"
+
 ## External hardware
 
 The system requires an external clock input to control the speed of the pulses and thus regulate the rotation speed of the motor.
