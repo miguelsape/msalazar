@@ -15,7 +15,7 @@ Other entries are:
 
 The /RESET input puts the driver into a predefined initial state and turns off the outputs. All pulses applied to the STEP input are ignored until the /RESET input is set high.
 
-/ENABLE. When a high logic value is applied (3.3 - 5V) the outputs are deactivated. When a 0 is applied, the internal control enables the outputs.
+/ENABLE. When a high logic value is applied the outputs are deactivated. When a 0 is applied, the internal control enables the outputs.
 
 /SLEEP. Sleep mode. To minimize power consumption when the motor is not in use, this input disables much of the internal circuitry. A low logic level on the SLEEP pin puts the A4988 into sleep mode.
 
